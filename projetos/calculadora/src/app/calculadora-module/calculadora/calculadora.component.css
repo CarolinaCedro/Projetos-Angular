@@ -66,6 +66,10 @@ small a{
   cursor: pointer;
 }
 
+.btnColorSimpleNumber:hover{
+  background-color: #ad7c43      ;
+}
+
 .btnNumberValueZero{
   width: 8rem;
   height: 4rem;
@@ -78,6 +82,9 @@ small a{
   font-size: 1.5rem;
   margin: .5rem;
   cursor: pointer;
+}
+.btnNumberValueZero:hover{
+  background: #5c5c5c  ;
 }
 
 .valueDisplay{
@@ -106,6 +113,10 @@ small a{
   cursor: pointer;
 }
 
+.btnNumberValue:hover{
+  background: #5c5c5c  ;
+}
+
 .btnNumberValueOnTop{
   width: 4rem;
   height: 4rem;
@@ -114,10 +125,14 @@ small a{
   align-items: center;
   justify-content: center;
   background-color: #A5A5A5;
-  color: white;
+  color: #000000;
   font-size: 1.5rem;
   margin: .5rem;
   cursor: pointer;
+}
+
+.btnNumberValueOnTop:hover{
+  background-color: #00bfff   ;
 }
 
 
